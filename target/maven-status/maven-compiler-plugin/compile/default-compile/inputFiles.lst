@@ -1,0 +1,6 @@
+/home/redcroc/Web/bookstore/src/main/java/com/example/bookstore/BookstoreApplication.java
+/home/redcroc/Web/bookstore/src/main/java/com/example/bookstore/config/DataInitializer.java
+/home/redcroc/Web/bookstore/src/main/java/com/example/bookstore/controller/BookController.java
+/home/redcroc/Web/bookstore/src/main/java/com/example/bookstore/model/Book.java
+/home/redcroc/Web/bookstore/src/main/java/com/example/bookstore/repository/BookRepository.java
+/home/redcroc/Web/bookstore/src/main/java/com/example/bookstore/service/BookService.java
