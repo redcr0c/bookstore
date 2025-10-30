@@ -61,9 +61,9 @@ public class BookService {
     public List<Book> searchByTitle(String title) {
         return bookRepository.findByTitle(title);
     }
-    
+
     // Get books by publication year
-    public List<Book> getBooksByYear(Integer year) {
+    public List<Book> getBooksByPublicationYear(Integer year) {
         return bookRepository.findByPublicationYear(year);
     }
 }

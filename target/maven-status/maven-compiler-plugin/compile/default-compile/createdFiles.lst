@@ -1,3 +1,7 @@
-com/example/bookstore/repository/BookRepository.class
 com/example/bookstore/BookstoreApplication.class
+com/example/bookstore/config/DataInitializer$1.class
+com/example/bookstore/repository/BookRepository.class
+com/example/bookstore/model/Book.class
+com/example/bookstore/service/BookService.class
 com/example/bookstore/config/DataInitializer.class
+com/example/bookstore/controller/BookController.class

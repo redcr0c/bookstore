@@ -74,10 +74,10 @@ public class BookController {
         return new ResponseEntity<>(books, HttpStatus.OK);
     }
     
-    // GET books by year
+    // GET books by publication year
     @GetMapping("/year/{year}")
-    public ResponseEntity<List<Book>> getBooksByYear(@PathVariable Integer year) {
-        List<Book> books = bookService.getBooksByYear(year);
+    public ResponseEntity<List<Book>> getBooksByPublicationYear(@PathVariable Integer year) {
+        List<Book> books = bookService.getBooksByPublicationYear(year);
         return new ResponseEntity<>(books, HttpStatus.OK);
     }
 }
